@@ -45,7 +45,7 @@ class App extends React.Component {
       statusMassage = " Hahaha you got too brave";
       this.setState({ status: statusMassage });
     }
-    if (this.state.spiceLevel <= 0) {
+    if (this.state.spiceLevel == 0) {
       statusMassage = " Wrong way buddy its gonna be too sweet";
       this.setState({ status: statusMassage });
     }
